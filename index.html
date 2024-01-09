@@ -114,7 +114,8 @@
                         <div class="card mt-5">
                             <img src="./img/classroom_lesson_1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">While the in person lesson will be done at my center in a more traditional fashion</p>
+                                <p class="card-text">While the in person lesson will be done at my center in a more
+                                    traditional fashion</p>
                             </div>
                         </div>
                     </div>
@@ -155,7 +156,8 @@
                 <div class="container pt-5">
                     <h1 class="mb-5">How it Works</h1>
 
-                    <div class="row p-0 m-0 bg-test-danger text-center align-items-center justify-content-center bg-body-tertiary">
+                    <div
+                        class="row p-0 m-0 bg-test-danger text-center align-items-center justify-content-center bg-body-tertiary">
 
                         <div class="col-12 col-lg-3 mb-5">
                             <div class="card">
@@ -165,7 +167,8 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Our first few lessons</h5>
                                     <p class="card-text">
-                                        The first few lesson will be used to esstablish an understanding of the students needs 
+                                        The first few lesson will be used to esstablish an understanding of the students
+                                        needs
                                         and on what topics and areas of study they need to focus on.
                                     </p>
                                 </div>
@@ -179,7 +182,8 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Continued Learning</h5>
                                     <p class="card-text">
-                                        During each lesson the student will be assisted with topics and spesific work they struggle with whilst
+                                        During each lesson the student will be assisted with topics and spesific work
+                                        they struggle with whilst
                                         keeping in mind previous topics that were only resently mastered or understood
                                     </p>
                                 </div>
@@ -193,7 +197,8 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Exam Prep</h5>
                                     <p class="card-text">
-                                        Exams are stressful times during the year but with proper planning and help we can mitigate some of 
+                                        Exams are stressful times during the year but with proper planning and help we
+                                        can mitigate some of
                                         that stress by helping the student prepare with mock exams and focussed study.
                                     </p>
                                 </div>
@@ -203,38 +208,94 @@
                 </div>
             </div>
 
-            <div class="p-0 m-0 mt-5 text-center bg-body-tertiary" id="contact_me">
-                <div class="container py-5">
-                    <h1 class="mb-5">Contact Me</h1>
-                    <form action="https://getform.io/f/e9f0d742-a8ec-450e-a868-3acc7a631cd3" method="POST">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">First Name</span>
-                            <input class="form-control" type="text" name="first_name">
+            <div class="accordion mt-5" id="accordionPanelsContact" id="contact_me">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-Meeting" aria-expanded="true"
+                            aria-controls="panelsStayOpen-Meeting">
+                            Setup a Meeting
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-Meeting" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <form action="https://getform.io/f/e9f0d742-a8ec-450e-a868-3acc7a631cd3" method="POST">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">First Name</span>
+                                    <input class="form-control" type="text" name="first_name">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Last Name</span>
+                                    <input class="form-control" type="text" name="last_name">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Email</span>
+                                    <input class="form-control" type="email" name="email">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Subject</span>
+                                    <select class="form-select" name="subject">
+                                        <option selected>Mathematics</option>
+                                        <!-- <option value="1">Physical Sciences</option> -->
+                                    </select>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">School</span>
+                                    <input class="form-control" type="text" name="school">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Notes</span>
+                                    <textarea class="form-control" name="notes" rows="3"></textarea>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Meeting Time</span>
+                                    <select class="form-select" name="subject">
+                                        <option value="Tuesday 18:15-19:00" selected>Tuesday 18:15-19:00</option>
+                                        <option value="Thursday 18:15-19:00">Thursday 18:15-19:00</option>
+                                    </select>
+                                </div>
+                                <div class="d-grid gap-2">
+                                    <input type="hidden" name="_gotcha" style="display:none !important">
+                                    <button class="btn btn-primary" type="submit">Submit</button>
+                                </div>
+                            </form>
                         </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">Last Name</span>
-                            <input class="form-control" type="text" name="last_name">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-Contact" aria-expanded="false"
+                            aria-controls="panelsStayOpen-Contact">
+                            Contact Me
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-Contact" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <form action="https://getform.io/f/e9f0d742-a8ec-450e-a868-3acc7a631cd3" method="POST">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">First Name</span>
+                                    <input class="form-control" type="text" name="first_name">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Last Name</span>
+                                    <input class="form-control" type="text" name="last_name">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Email</span>
+                                    <input class="form-control" type="email" name="email">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Message</span>
+                                    <textarea class="form-control" name="message" rows="3"></textarea>
+                                </div>
+                                <div class="d-grid gap-2">
+                                    <input type="hidden" name="_gotcha" style="display:none !important">
+                                    <button class="btn btn-primary" type="submit">Submit</button>
+                                </div>
+                            </form>
                         </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">Email</span>
-                            <input class="form-control" type="email" name="email">
-                        </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">Subject</span>
-                            <select class="form-select" name="subject">
-                                <option selected>Mathematics</option>
-                                <option value="1">Physical Sciences</option>
-                            </select>
-                        </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">Message</span>
-                            <textarea class="form-control" name="message" rows="3"></textarea>
-                        </div>
-                        <div class="d-grid gap-2">
-                            <input type="hidden" name="_gotcha" style="display:none !important">
-                            <button class="btn btn-primary" type="submit">Submit</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
 
